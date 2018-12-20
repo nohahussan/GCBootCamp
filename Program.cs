@@ -1,7 +1,5 @@
 ﻿using System;
-
 using System.Globalization;
-
 
 namespace Deliverable1
 {
@@ -13,13 +11,11 @@ namespace Deliverable1
 
             double[] arrayOfAmounts = new double[3];
 
+            //declear variables 
 
             double total = 0;
-
             double average;
-
             double largestAmount;
-
             double smallestAmount;
 
             // take three diferent amount
@@ -37,6 +33,7 @@ namespace Deliverable1
                 total += arrayOfAmounts[i];
             }
 
+            //calculate the average
             average = total / 3;
 
             //to find the largest amount and the smalest amount
@@ -67,7 +64,7 @@ namespace Deliverable1
             Console.WriteLine("The Smallest amount : " + smallestAmount);
 
 
-
+            //output the Total
 
             Console.WriteLine("US: "+ total.ToString("C2", CultureInfo.CreateSpecificCulture("es-US")));
 
@@ -76,12 +73,6 @@ namespace Deliverable1
             Console.WriteLine("Japanese: "+ total.ToString("C2", CultureInfo.CreateSpecificCulture("ja-JP")));
 
             Console.WriteLine("Thai: "+ total.ToString("C2", CultureInfo.CreateSpecificCulture("th-TH")));
-
-
-
-
-
-
 
         }
     }
