@@ -9,8 +9,10 @@ namespace Deliverable1
     {
         public static void Main(string[] args)
         {
+            //declear an array to store the user inputs
+
             double[] arrayOfAmounts = new double[3];
-            
+
 
             double total = 0;
 
@@ -55,6 +57,8 @@ namespace Deliverable1
                     smallestAmount = arrayOfAmounts[i];
                 }
             }
+
+            //output the average ,largest and smallest amount
 
             Console.WriteLine("The Average : " + average);
 
