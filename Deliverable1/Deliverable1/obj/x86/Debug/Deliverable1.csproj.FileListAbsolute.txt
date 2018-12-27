@@ -1,0 +1,6 @@
+/Users/Noha/Projects/Deliverable1/Deliverable1/bin/Debug/Deliverable1.exe
+/Users/Noha/Projects/Deliverable1/Deliverable1/bin/Debug/Deliverable1.pdb
+/Users/Noha/Projects/Deliverable1/Deliverable1/obj/x86/Debug/Deliverable1.csprojAssemblyReference.cache
+/Users/Noha/Projects/Deliverable1/Deliverable1/obj/x86/Debug/Deliverable1.csproj.CoreCompileInputs.cache
+/Users/Noha/Projects/Deliverable1/Deliverable1/obj/x86/Debug/Deliverable1.exe
+/Users/Noha/Projects/Deliverable1/Deliverable1/obj/x86/Debug/Deliverable1.pdb
